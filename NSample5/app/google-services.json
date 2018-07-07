@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "501206793350",
+    "firebase_url": "https://attendance-d9c20.firebaseio.com",
+    "project_id": "attendance-d9c20",
+    "storage_bucket": "attendance-d9c20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501206793350:android:0e01a9472fff41f3",
+        "android_client_info": {
+          "package_name": "com.example.acer.googleapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501206793350-i7oh3vq70tjpc7im2eaods58k61nf01s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.acer.googleapi",
+            "certificate_hash": "fc0b64d6c0236a1eb8b5ea810967b6e504cd35ff"
+          }
+        },
+        {
+          "client_id": "501206793350-5mtcsguqj9tvdr433lrdvivkr44ikii1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "501206793350-5mtcsguqj9tvdr433lrdvivkr44ikii1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfKo-pEYuLzb37wIivxJSjwKMBKDotAdw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501206793350-5mtcsguqj9tvdr433lrdvivkr44ikii1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501206793350:android:7c8e5ecb52f510a4",
+        "android_client_info": {
+          "package_name": "com.example.acer.nsample5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501206793350-h243uk2cnt7gvqqsn5rbp2jkbo77d4l0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.acer.nsample5",
+            "certificate_hash": "2a35c6f6c76e2f946ab15d4b207abb1e6e85d603"
+          }
+        },
+        {
+          "client_id": "501206793350-5mtcsguqj9tvdr433lrdvivkr44ikii1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "501206793350-5mtcsguqj9tvdr433lrdvivkr44ikii1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfKo-pEYuLzb37wIivxJSjwKMBKDotAdw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501206793350-5mtcsguqj9tvdr433lrdvivkr44ikii1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

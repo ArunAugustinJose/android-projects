@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:keyboard="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MobileNoEntry">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_otp_icon"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:text="+91"
+        android:layout_weight="1"
+        android:letterSpacing=".1"
+        android:id="@+id/amount"/>
+
+    <com.example.acer.logindesign2.NumberKeyboard
+        android:id="@+id/numberKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="50dp"
+        keyboard:keyboardType="integer"/>
+
+
+</LinearLayout>

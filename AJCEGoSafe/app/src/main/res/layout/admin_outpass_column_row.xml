@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="45dp"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/txtSno"
+        android:layout_width="36dp"
+        android:layout_height="45dp"
+        android:layout_weight="10.66"
+        android:paddingTop="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtAdno"
+        android:layout_width="59dp"
+        android:layout_height="45dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Txt_date"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtPurpose"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:id="@+id/Txt_status"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Txt_Hiddenoid"
+        android:layout_width="25dp"
+        android:layout_height="45dp"
+        android:visibility="invisible" />
+
+</LinearLayout>

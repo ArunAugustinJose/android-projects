@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgPerson1"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_x="15dp"
+        android:layout_y="4dp"
+        app:srcCompat="@drawable/person" />
+
+    <Button
+        android:id="@+id/btnApprove"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_x="254dp"
+        android:layout_y="22dp"
+        android:background="?android:attr/colorActivatedHighlight"
+        android:text="Return"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/SecTxtName2"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="28dp"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textColor="@color/colorblack"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/HiddenOid2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="184dp"
+        android:layout_y="62dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/HiddenPid2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="63dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+</AbsoluteLayout>

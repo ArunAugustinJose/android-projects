@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgPerson"
+        android:layout_width="82dp"
+        android:layout_height="85dp"
+        android:layout_x="13dp"
+        android:layout_y="6dp"
+        app:srcCompat="@drawable/person" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="6dp"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textColor="@color/colorblack"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtPurpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="37dp"
+        android:fontFamily="cursive"
+        android:singleLine="false"
+        android:text="TextView"
+        android:textColor="@color/colorblack"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnApprove"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="107dp"
+        android:layout_y="62dp"
+        android:background="#FF41A425"
+        android:text="Approve"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnReject"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="205dp"
+        android:layout_y="62dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Reject"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_x="306dp"
+        android:layout_y="41dp" />
+
+    <TextView
+        android:id="@+id/txtHidden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="248dp"
+        android:layout_y="12dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/hiddenPid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="317dp"
+        android:layout_y="3dp"
+        android:visibility="invisible" />
+</AbsoluteLayout>

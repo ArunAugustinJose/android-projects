@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="com.example.hp.ajcegosafe.StudentDelete">
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="63dp"
+        android:ems="10"
+        android:hint="Admission No."
+        android:inputType="textPersonName"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="191dp"
+        android:layout_y="68dp"
+        android:background="@color/colorblack"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="288dp"
+        android:layout_height="58dp"
+        android:layout_x="31dp"
+        android:layout_y="364dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="serif"
+        android:text="Remove"
+        android:textColor="@color/colorWhite"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_x="26dp"
+        android:layout_y="176dp"
+        android:paddingTop="4dp"
+        android:text="Name"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_x="26dp"
+        android:layout_y="226dp"
+        android:paddingTop="4dp"
+        android:text="Branch"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_x="26dp"
+        android:layout_y="272dp"
+        android:paddingTop="4dp"
+        android:text="Batch"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_x="35dp"
+        android:layout_y="439dp"
+        android:background="@color/colorblack"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light" />
+</AbsoluteLayout>

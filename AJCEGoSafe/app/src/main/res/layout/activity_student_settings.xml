@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp.ajcegosafe.StudentSettings">
+
+    <LinearLayout
+        android:id="@+id/Linear_layout5"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/side_nav_bar">
+
+        <ImageView
+            android:id="@+id/imageVie5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            app:srcCompat="@drawable/ic_menu_camera"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="100dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linear_layout">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/pro"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:paddingTop="22dp"
+            android:text="Profile"
+            android:paddingLeft="60dp"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linear_layout2">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/password"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:paddingTop="22dp"
+            android:text="Password"
+            android:paddingLeft="60dp"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linear_layout3">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/help" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:paddingTop="22dp"
+            android:text="Help"
+            android:paddingLeft="60dp"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linear_layout4">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/about"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:paddingTop="22dp"
+            android:text="About"
+            android:paddingLeft="60dp"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.ajcegosafe.SettingsProfile">
+
+    <TextView
+        android:id="@+id/txtupdated"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="26dp"
+        android:fontFamily="serif"
+        android:text="You are only permitterd to change your mobile number..!"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="206dp"
+        android:background="@android:color/holo_green_dark"
+        android:fontFamily="serif"
+        android:text="Save"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="130dp"
+        android:ems="10"
+        android:hint="Enter new Mobile Number"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SocialLocation</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

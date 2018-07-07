@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AJCE Go Safe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="Student_outpass">Outpass</string>
+    <string name="pick_up_date">Pick the Date</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="Admin_home">Home</string>
+    <string name="Course_streams">Streams</string>
+    <string name="Student_registration">Registration</string>
+    <string name="Student_profile">Profile</string>
+    <string name="Student_remove">Remove Student</string>
+    <string name="Student_settings">Settings</string>
+    <string name="title_activity_securities_home">SecuritiesHome</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_security_home">SecurityHome</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

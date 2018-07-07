@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context="com.example.hp.ajcegosafe.LoginActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="257dp"
+        android:layout_height="41dp"
+        android:layout_x="56dp"
+        android:layout_y="150dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:hint="Admission No."
+        android:digits="qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM0123456789"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="257dp"
+        android:layout_height="41dp"
+        android:layout_x="55dp"
+        android:layout_y="229dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="257dp"
+        android:layout_height="47dp"
+        android:layout_x="57dp"
+        android:layout_y="306dp"
+        android:background="#0f1b61"
+        android:text="Login"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewError"
+        android:layout_width="253dp"
+        android:layout_height="50dp"
+        android:layout_x="62dp"
+        android:layout_y="376dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="436dp"
+        android:text="Forgot Password?"
+        android:textAlignment="center"
+        android:textColor="#FF0B175F"
+        android:textColorLink="@color/colorblack"
+        android:textSize="18sp" />
+
+
+</AbsoluteLayout>

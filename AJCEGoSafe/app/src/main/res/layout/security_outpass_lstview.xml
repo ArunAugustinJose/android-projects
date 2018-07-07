@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgPerson"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_x="15dp"
+        android:layout_y="4dp"
+        app:srcCompat="@drawable/person" />
+
+    <TextView
+        android:id="@+id/SecTxtName"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="25dp"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textColor="@color/colorblack"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnGoOut"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_x="252dp"
+        android:layout_y="25dp"
+        android:background="#FF41A425"
+        android:text="Went Out"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/HiddenOid"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_x="184dp"
+        android:layout_y="60dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/HiddenPid"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="60dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+</AbsoluteLayout>

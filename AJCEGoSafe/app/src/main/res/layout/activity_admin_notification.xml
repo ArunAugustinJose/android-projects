@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.ajcegosafe.AdminNotification">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtSno"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="27"
+            android:fontFamily="serif"
+            android:paddingTop="5dp"
+            android:text="S/No"
+            android:textAlignment="center"
+            android:textColor="@color/colorblack"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/Txt_admno"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="27"
+            android:paddingTop="5dp"
+            android:text="Adno"
+            android:textAlignment="center"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:id="@+id/Txt_date"
+            android:layout_width="66dp"
+            android:layout_height="35dp"
+            android:paddingTop="5dp"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:id="@+id/txtPurpose"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="21"
+            android:fontFamily="serif"
+            android:paddingTop="5dp"
+            android:text="Purpose"
+            android:textAlignment="center"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/Txt_status"
+            android:layout_width="match_parent"
+            android:text="Status"
+            android:paddingTop="5dp"
+            android:layout_height="35dp"
+            android:layout_weight="26"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="serif"
+            android:textColor="@color/colorblack"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="533dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_y="33dp">
+    </ListView>
+
+</AbsoluteLayout>

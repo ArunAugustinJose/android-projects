@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mitsogo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="about_app">This is an application to scan device battery, network, storage, weather and other device informations like
+    OS, API level ect.  Weather Report of Current Location Using a Public Weather API, here collecting the weather information from www.openweathermap.org</string>
+
+</resources>

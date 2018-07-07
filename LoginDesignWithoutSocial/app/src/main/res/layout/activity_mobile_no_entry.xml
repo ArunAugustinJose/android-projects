@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/EntryHead"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/ic_otp_icon"
+        android:layout_marginTop="-21dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_close_black_24dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:id="@+id/mobileBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your mobile number"
+        android:textSize="21dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/mobileBack"
+        />
+
+    <LinearLayout
+        android:id="@+id/MobLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EntryHead"
+        android:layout_margin="20dp">
+
+        <com.rilixtech.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            app:ccp_textSize="22dp"
+            android:paddingTop="10dp"
+            app:ccp_defaultNameCode="IN"
+            android:clickable="false"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:letterSpacing=".2"
+            android:id="@+id/etMobile"
+            android:textSize="22dp"
+            android:layout_marginLeft="5dp"
+            android:textCursorDrawable="@drawable/color_cursor"/>
+
+    </LinearLayout>
+
+    <com.example.acer.logindesignwithoutsocial.MyKeyboard
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
